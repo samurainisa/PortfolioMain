@@ -1,0 +1,99 @@
+    *,
+    *::after *::before {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 15px;
+        font-family: Roboto;
+    }
+    
+    .header__items {
+        font-size: 18px;
+        font-weight: 600;
+        color: #828282;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 34px;
+        margin-bottom: 34px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #828282;
+    }
+    
+    .header__items-0 {
+        color: #000;
+    }
+    
+    .hr {
+        height: 2px;
+        background-color: #828282;
+    }
+    
+    .name {
+        color: #000;
+        font-size: 48px;
+        font-family: roboto;
+        font-weight: bold;
+    }
+    
+    .header__main {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 0px 30px 0px;
+        align-items: flex-end;
+    }
+    
+    .main__text {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .header__main--items3 {
+        transform: rotate(90deg);
+        -webkit-transform-origin-x: right;
+        margin-right: 8px;
+        margin-bottom: -8px;
+    }
+    
+    .main__text {
+        color: #000
+    }
+    
+    .main__ru {
+        color: #828282;
+    }
+    
+    .specific__text {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .header__img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url(img/bgnikita.jpg);
+        height: 55vh;
+        width: 100%;
+    }
+    
+    .body__header {
+        background-color: #F6F6F6;
+        width: 100%;
+        font-family: Roboto;
+    }
+    
+    .body__header p {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .body__header h1 {
+        text-align: center;
+    }
